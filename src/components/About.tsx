@@ -13,7 +13,7 @@ export default function About({}: Props) {
     className='flex flex-col relative h-screen text-center
                     md:text-left md:flex-row max-w-7xl px-10 justify-evenly
                     mx-auto items-center'>
-      <h3 className='absolute top-24 uppercase tracking-[20px] text-gray-500 text-2xl'>About</h3>
+      <h3 className='absolute top-16 uppercase tracking-[20px] text-gray-500 text-2xl'>About</h3>
 
       <motion.img
       initial={{
@@ -29,7 +29,7 @@ export default function About({}: Props) {
       }}
       src="/About_Profile_Image.jpg"
       alt="About Profile Image"
-      className='-mb-20 md:mb-0 flex-shrink-0 w-56 h-56 rounded-full object-cover
+      className='mt-24 md:mb-0 flex-shrink-0 w-48 h-48 rounded-full object-cover
                   md:rounded-lg md:w-64 md:h-96 xl:w-[500px] xl:h-[600px]'
       />
 
@@ -37,7 +37,7 @@ export default function About({}: Props) {
         <h4 className='text-4xl font-semibold'>
           Here is a <span className='underline decoration-[#F7AB0A]/50'>little</span>  background
         </h4>
-        <p className='text-base'>Hi, I'm Simon, a skilled Full Stack and Front-end Developer with a passion for creating
+        <p className='text-sm'>Hi, I'm Simon, a skilled Full Stack and Front-end Developer with a passion for creating
           dynamic and user-friendly websites. I recently successfully finished a Fullstack bootcamp from
           LeWagon, which has equipped me with a strong foundation in both front-end and back-end development.
           I'm always striving to learn more and improve my skills, and I'm currently seeking
