@@ -1,5 +1,6 @@
+import Header from "@/components/Header";
 import { NextPage } from "next";
-import Head from 'next/head'
+import Head from 'next/head';
 
 
 export default function Home() {
@@ -10,6 +11,7 @@ export default function Home() {
       </Head>
 
       {/* Header */}
+      <Header />
 
       {/* Hero */}
 
@@ -24,5 +26,5 @@ export default function Home() {
       {/* Contact me */}
 
     </div>
-  )
-}
+  );
+};
