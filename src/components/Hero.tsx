@@ -15,7 +15,7 @@ export default function Hero({}: Props) {
       '<ButLovesToCodeMore />'
     ],
     loop: true,
-    delaySpeed: 2000,
+    delaySpeed: 3000,
   });
 
   return (
