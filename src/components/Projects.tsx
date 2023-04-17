@@ -7,17 +7,23 @@ export default function Projects({}: Props) {
   const projects = [
     {
       title: "Give-Hope",
-      description: "This is the description for Project 1.",
+      description: "GiveHope is a user-friendly web application that serves as a platform for charities to list their organizations and for users to donate to causes that they are passionate about (The website is aviable as a responsive Desktop and PWA version).",
+      backendStack: "Backend: Ruby",
+      frontendStack: "Frontend: HTML, CSS, Ruby on Rails, Bootstrap, JavaScript",
       image: "/givehope-mockup.png"
     },
     {
       title: "Airbnb Clone",
-      description: "This is the description for Project 2.",
+      description: "I created an Airbnb clone website using React and Next.js, with a user-friendly interface thatx mimics Airbnb's functionality. The website is a frontend-only clone, and I paid close attention to the design of the interface to make it easy for visitors to browse and filter through listings.",
+      backendStack: "",
+      frontendStack: "Frontend: React, Next.js, Tailwind CSS",
       image: "/airbnb-mockup.png"
     },
     {
       title: "Earn-Train",
-      description: "This is the description for Project 3.",
+      description: "Earn-Train is a website where companies list small tasks, and users complete them for money. Users can browse tasks based on their interests. Earn-Train provides an easy way for outsourcing small tasks and earning money. (The website is currently only aviable as a PWA version)",
+      backendStack: "Backend: Ruby",
+      frontendStack: "Frontend: HTML, CSS, Ruby on Rails, Bootstrap, JavaScript",
       image: "/earntrain-mockup.png"
     }
   ];
@@ -47,15 +53,17 @@ export default function Projects({}: Props) {
               viewport={{ once: true }}
             src={project.image}
             alt='Project image'
-            width={550}
-            height={550} />
-            <div className='space-y-10 px-0 md:px-10 max-w-6xl'>
+            width={500}
+            height={500} />
+            <div className='space-y-6 px-0 md:px-10 max-w-6xl'>
               <h4 className='text-4xl font-semibold text-center'>
                 <span className='underline decoration-[#F7AB0A]/50'>
                   {project.title}
                 </span>
               </h4>
-              <p className='text-lg text-center md:text-left'>{project.description}</p>
+              <p className='text-sm text-center md:text-left lg:text-xl'>{project.description}</p>
+              <p className='text-sm text-center md:text-left'>{project.backendStack}</p>
+              <p className='text-sm text-center md:text-left'>{project.frontendStack}</p>
             </div>
           </div>
         ))}
