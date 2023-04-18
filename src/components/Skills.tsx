@@ -19,18 +19,21 @@ export default function Skills({}: Props) {
 
       <div className='grid grid-cols-4 gap-5'>
         <Skill directionLeft={true} imagePath="HTML5.png" />
-        <Skill directionLeft={true} imagePath="CSS3.svg" />
-        <Skill directionLeft={false} imagePath="Git.jpg" />
-        <Skill directionLeft={false} imagePath="GitHub.png" />
-        <Skill directionLeft={true} imagePath="React.svg" />
-        <Skill directionLeft={true} imagePath="Bootstrap.avif" />
+        <Skill directionLeft={true} imagePath="CSS3.png" />
+        <Skill directionLeft={true} imagePath="Git.png" />
+        <Skill directionLeft={true} imagePath="GitHub.png" />
+        <Skill directionLeft={false} imagePath="React.jpeg" />
+        <Skill directionLeft={false} imagePath="Bootstrap.avif" />
         <Skill directionLeft={false} imagePath="Tailwind.png" />
-        <Skill directionLeft={false} imagePath="Figma.png" />
+        <Skill directionLeft={false} imagePath="Figma.jpeg" />
         <Skill directionLeft={true} imagePath="Rails.png" />
         <Skill directionLeft={true} imagePath="ruby.avif" />
-        <Skill directionLeft={false} imagePath="Heroku.png" />
-        <Skill directionLeft={false} imagePath="JavaScript.png" />
-        <Skill directionLeft={true} imagePath="SQL.SVG" />
+        <Skill directionLeft={true} imagePath="Heroku.png" />
+        <Skill directionLeft={true} imagePath="JavaScript.png" />
+        <Skill directionLeft={false} imagePath="SQL.jpeg" />
+        <Skill directionLeft={false} imagePath="SASS.jpeg" />
+        <Skill directionLeft={false} imagePath="Slack.png" />
+        <Skill directionLeft={false} imagePath="NextJS.png" />
       </div>
     </motion.div>
   );
