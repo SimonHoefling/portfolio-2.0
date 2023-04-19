@@ -37,7 +37,7 @@ export default function Projects({}: Props) {
       initial={{opacity: 0}}
       whileInView={{ opacity: 1 }}
       transition={{ duration: 1 }}
-    className='h-screen relative flex overfow-hidden flex-col text-center
+    className='h-screen pt-safe pb-safe relative flex overfow-hidden flex-col text-center
               md:flex-row max-w-full justify-evenly mx-auto items-center z-0'>
       <h3 className='absolute top-24 uppercase tracking-[20px] text-gray-500 text-2xl'>
         Projects
@@ -46,7 +46,7 @@ export default function Projects({}: Props) {
       <div className='w-full relative flex overflow-x-scroll overflow-y-hidden snap-x
                      snap-mandatory z-20'>
         {projects.map((project, i) => (
-          <div key={i} className='w-screen flex-shrink-0 snap-center flex flex-col space-y-2 items-center justify-center p-10 md:p-44 h-screen'>
+          <div key={i} className='w-screen flex-shrink-0 snap-center flex flex-col space-y-2 items-center justify-center p-10 md:p-44 h-screen pt-safe pb-safe'>
             <motion.img
               initial={{
                 y: -300,

@@ -10,7 +10,7 @@ export default function About({}: Props) {
     initial={{opacity: 0}}
     whileInView={{ opacity: 1 }}
     transition={{ duration: 1.5 }}
-    className='flex flex-col relative h-screen text-center
+    className='flex flex-col relative h-screen pt-safe pb-safe text-center
                     md:text-left md:flex-row max-w-7xl px-10
                     mx-auto items-center'>
 
