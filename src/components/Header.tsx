@@ -2,6 +2,7 @@ import React from 'react';
 import { SocialIcon } from 'react-social-icons';
 import { motion } from 'framer-motion';
 import Link from 'next/link';
+import { DocumentIcon } from '@heroicons/react/24/outline';
 
 type Props = {};
 
@@ -37,7 +38,13 @@ export default function Header({}: Props) {
           fgColor='gray'
           bgColor='transparent'
         />
-        <p className='uppercase hidden md:inline-flex text-sm text-gray-400'>Get in touch</p>
+        {/* <DocumentIcon className="h-6 w-6 text-gray-500" /> */}
+        <Link
+          className='uppercase text-sm text-gray-400'
+          href="/SIMON HOEFLING - Resume.pdf"
+          target="_blank">
+          Open CV
+        </Link>
       </motion.div>
     </header>
   )
