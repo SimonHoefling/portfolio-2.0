@@ -8,7 +8,7 @@ export default function Projects({}: Props) {
   const projects = [
     {
       title: "Give-Hope",
-      description: "GiveHope is a user-friendly web application that serves as a platform for charities to list their organizations, and for users to donate to causes that they are passionate about. The website is available as a responsive desktop and PWA version.",
+      description: "GiveHope is a web application that serves as a platform for charities to list their organizations, and for users to donate to causes that they are passionate about. The website is available as a responsive desktop and PWA version.",
       backendStack: "Backend: Ruby",
       frontendStack: "Frontend: HTML, CSS, Ruby on Rails, Bootstrap, JavaScript",
       image: "/givehope-mockup.png",
@@ -46,7 +46,7 @@ export default function Projects({}: Props) {
       <div className='w-full relative flex overflow-x-scroll overflow-y-hidden snap-x
                      snap-mandatory z-20'>
         {projects.map((project, i) => (
-          <div key={i} className='w-screen flex-shrink-0 snap-center flex flex-col space-y-5 items-center justify-center p-20 md:p-44 h-screen'>
+          <div key={i} className='w-screen flex-shrink-0 snap-center flex flex-col space-y-2 items-center justify-center p-10 md:p-44 h-screen'>
             <motion.img
               initial={{
                 y: -300,
