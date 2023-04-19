@@ -14,7 +14,7 @@ export default function About({}: Props) {
                     md:text-left md:flex-row max-w-7xl px-10
                     mx-auto items-center'>
 
-      <h3 className='absolute w-full text-center top-16 uppercase tracking-[20px] text-gray-500 text-2xl'>About</h3>
+      <h3 className='absolute w-full text-center top-24 uppercase tracking-[20px] text-gray-500 text-2xl'>About</h3>
 
       <motion.img
       initial={{
@@ -30,7 +30,7 @@ export default function About({}: Props) {
       }}
       src="/About_Profile_Image.jpg"
       alt="About Profile Image"
-      className='mt-28 md:mb-0 flex-shrink-0 w-36 h-36 rounded-full object-cover
+      className='mt-32 md:mb-0 flex-shrink-0 w-36 h-36 rounded-full object-cover
                   md:rounded-lg md:w-64 md:h-96 xl:w-[500px] xl:h-[600px]'
       />
 
