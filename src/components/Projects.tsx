@@ -16,7 +16,7 @@ export default function Projects({}: Props) {
     },
     {
       title: "Airbnb Clone",
-      description: "I created an Airbnb clone website using React and Next.js, with a user-friendly interface thatx mimics Airbnb's functionality. The website is a frontend-only clone, and I paid close attention to the design of the interface to make it easy for visitors to browse and filter through listings.",
+      description: "I created an Airbnb clone website using React and Next.js, with a user-friendly interface that mimics Airbnb's functionality. The website is a frontend-only clone, and I paid close attention to the design of the interface to make it easy for visitors to browse and filter through listings.",
       backendStack: "",
       frontendStack: "Frontend: React, Next.js, Tailwind CSS",
       image: "/airbnb-mockup.png",
