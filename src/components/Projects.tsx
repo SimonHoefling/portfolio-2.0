@@ -22,14 +22,14 @@ export default function Projects({}: Props) {
       image: "/airbnb-mockup.png",
       link: "https://my-airbnb-clone-simon-dev.vercel.app/"
     },
-    {
-      title: "Earn-Train",
-      description: "Earn-Train is a website where companies list small tasks, and users complete them for money. Users can browse tasks based on their interests. Earn-Train provides an easy way for outsourcing small tasks and earning money. (The website is currently only available as a PWA version)",
-      backendStack: "Backend: Ruby",
-      frontendStack: "Frontend: HTML, CSS, Ruby on Rails, Bootstrap, JavaScript",
-      image: "/earntrain-mockup.png",
-      link: "https://earn-train.osc-fr1.scalingo.io/"
-    }
+    // {
+    //   title: "Earn-Train",
+    //   description: "Earn-Train is a website where companies list small tasks, and users complete them for money. Users can browse tasks based on their interests. Earn-Train provides an easy way for outsourcing small tasks and earning money. (The website is currently only available as a PWA version)",
+    //   backendStack: "Backend: Ruby",
+    //   frontendStack: "Frontend: HTML, CSS, Ruby on Rails, Bootstrap, JavaScript",
+    //   image: "/earntrain-mockup.png",
+    //   link: "https://earn-train.osc-fr1.scalingo.io/"
+    // }
   ];
 
   return (
